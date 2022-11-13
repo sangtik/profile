@@ -34,7 +34,7 @@ main section article img{
 
 main aside {
    width: 100%;
-   height: 100vh;
+   /* height: 100vh; */
    background: rgb(216, 208, 208);
    position: absolute;
    top: 0px;
@@ -46,7 +46,7 @@ main aside {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   transition: 1s;
+   /* transition: 1s; */
 }
 
 main aside.on{
@@ -61,8 +61,11 @@ main aside span{
 }
 
 main aside img{
-   width: 100%;
-   height: 95%;
+   width:100%; 
+   height:auto; 
+   /* width: 100%;
+   height: 100%; */
+   vertical-align: middle;
    object-fit: cover;
 }
 
