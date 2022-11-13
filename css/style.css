@@ -21,14 +21,14 @@ section {
 
 main section article {
    font-family: 'Inter', sans-serif;
-   font-size: 5rem;
+   font-size: 6rem;
    letter-spacing: 5px;
    text-align: center;
    width:100%; 
 }
 
 main section article img{
-   width:5%; 
+   width:7%; 
    height:auto; 
    vertical-align: middle;
 }
